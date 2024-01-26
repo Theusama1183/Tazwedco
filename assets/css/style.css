@@ -169,13 +169,19 @@ img.Iphone-image {
   line-height: 26px;
   color: #18191f;
 }
+
 .subscrib-form-section .container {
-  padding: 100px 0;
-  background: url(assets/img/subscrib-form-section-banner.png);
+  padding: 100px 100px;
+  background-image: url(https://github.com/Theusama1183/Tazwedco/blob/main/assets/img/subscrib-form-section-banner.png?raw=true);
+  background-position: center;
+  background-size: cover;
 }
 @media only screen and (max-width: 767px) {
   .position-absolute {
     position: static !important;
+  }
+  .subscrib-form-section .container {
+    padding: 100px 20px;
   }
   .mt-100 {
     margin-top: 0;
