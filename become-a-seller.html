@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Become A Seller</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img src="assets/img/logo.png" alt="Tazwedco" width="100" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav ml-auto mr-4">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/careers.html">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact-us.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/download-app.html">Download App</a>
+            </li>
+          </ul>
+
+          <div class="my-2 my-lg-0">
+            <a class="btn btn-outline-primary mr-2" href="/login.html">Login</a>
+            <a class="btn btn-primary" href="/become-a-seller.html"
+              >Become A Seller</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="seller-banner-section pt-100 pb-100">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col d-flex flex-column justify-content-center text-center"
+          >
+            <h1 class="primary-heading text-white mt-2">Become A Seller</h1>
+            <p class="text text-white">
+              Are you a retailer looking to expand your reach and connect with a
+              wider audience
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="welcome-section pt-100 pb-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 d-flex flex-column justify-content-center">
+            <img src="assets/img/48095751.png" width="100%" alt="" />
+          </div>
+          <div class="col-lg-6 d-flex flex-column justify-content-center">
+            <h3 class="small-heading text-purpal">Who We Are</h3>
+            <h2 class="medium-heading text-dark mt-2">
+              Tazweedco is more than just an online retail platform
+            </h2>
+            <p class="text">
+              we're your partner in success. Founded with the vision of creating
+              a unique shopping experience, we collaborate with retailers to
+              bring you the finest products and services. Our commitment to
+              innovation, customer satisfaction, and retailer empowerment drives
+              us to set new standards in the retail industry. Learn more about
+              our journey and how we are shaping the future of retail.
+            </p>
+            <div class="row">
+              <div class="col-md-4">
+                <a class="btn btn-primary" href="#">Read our story</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="seller-form-section pt-100">
+      <div class="container">
+        <div class="row">
+          <div class="col pb-100">
+            <form class="w-75 m-auto p-md-5 p-3 bg-white">
+              <div class="form-row">
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form-control mt-2"
+                    name="First_Name"
+                    placeholder="First name"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form-control mt-2"
+                    name="Last_Name"
+                    placeholder="Last name"
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form-control mt-2"
+                    name="Email_Address"
+                    placeholder="Email Address"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form-control mt-2"
+                    name="Phone_No"
+                    placeholder="Phone Number"
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form-control mt-2"
+                    name="Company_Name"
+                    placeholder="Company Name"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <select
+                    name="Inquiring_About"
+                    class="form-control mt-2"
+                    id="select-box"
+                  >
+                    <option value="" selected="" disabled="">
+                      I’m inquiring about
+                    </option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col">
+                  <textarea
+                    name="Message"
+                    class="textarea-f mt-2"
+                    placeholder="Message"
+                    id=""
+                    cols="30"
+                    rows="8"
+                  ></textarea>
+                </div>
+              </div>
+
+              <div class="form-row mt-2">
+                <div class="col-md-6">
+                  <button class="btn btn-primary" type="submit">
+                    Apply Now
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="how-work-section bg-gray pb-100 pt-100">
+      <div class="container">
+        <h2 class="medium-heading text-dark text-center">How It Works</h2>
+        <div class="row mt-40">
+          <div class="col-md-4">
+            <div class="work-card text-center">
+              <img src="/assets/img/explore-our-platform.png" alt="" />
+              <h3>Explore our Platform</h3>
+              <h4>
+                Visit Tazwedco and discover a curated selection of products.
+              </h4>
+              <p>
+                Our platform is designed for ease of navigation, allowing you to
+                browse through diverse categories and find exactly what you're
+                looking for. From tech gadgets to fashion trends, we've got it
+                all. Explore, click, and embark on your retail journey!
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-card text-center">
+              <img src="/assets/img/personalize-your-experience.png" alt="" />
+              <h3>Personalize Your Experience</h3>
+              <h4>
+                Create a Tazwedco account to unlock a world of personalized
+                features.
+              </h4>
+              <p>
+                Once all information is turned to us, your books are now in our
+                hands. We categorize, reconcile, and do other add-on tasks so
+                you don’t have to.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-card text-center">
+              <img
+                src="/assets/img/seamless-transactions-and-beyond.png"
+                alt=""
+              />
+              <h3>Seamless Transactions and Beyond</h3>
+              <h4>
+                Enjoy various payment options and choose the delivery method
+                that suits you best.
+              </h4>
+              <p>
+                Once your order is confirmed, relax and let us take care of the
+                rest. Our dedicated customer support team is here to assist you
+                every step of the way.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="selling-things-section pt-100 pb-100">
+      <div class="container">
+        <h2 class="medium-heading text-dark text-center">What can you sell</h2>
+        <div class="row mt-40">
+          <div class="col">
+            <div class="d-md-flex">
+              <div class="m-3">
+                <div class="image-overlay-wrapper">
+                  <div class="card text-white">
+                    <img
+                      class="card-img"
+                      src="assets/img/Meat-Poultry.png"
+                      alt=""
+                    />
+
+                    <div class="card-img-overlay selling-things-card">
+                      <h4 class="card-icon">
+                        <img src="assets/img/48095752.png" alt="" />
+                      </h4>
+                      <div class="hover-text">
+                        <p class="text">Meat & Poultry</p>
+                      </div>
+                    </div>
+                    <div class="hover-image">
+                      <img
+                        class="card-img"
+                        src="assets/img/Meat-Poultry-Hover.png"
+                        alt=""
+                      />
+                      <div class="hover-text-image-wrap">
+                        <img src="assets/img/48095752.png" alt="" />
+                        <p class="text">Meat & Poultry</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="m-3">
+                <div class="image-overlay-wrapper">
+                  <div class="card text-white">
+                    <img class="card-img" src="assets/img/BBQ.png" alt="" />
+
+                    <div class="card-img-overlay selling-things-card">
+                      <h4 class="card-icon">
+                        <img src="assets/img/48095752.png" alt="" />
+                      </h4>
+                      <div class="hover-text">
+                        <p class="text">BBQ</p>
+                      </div>
+                    </div>
+                    <div class="hover-image">
+                      <img
+                        class="card-img"
+                        src="assets/img/BBQ-Hover.png"
+                        alt=""
+                      />
+                      <div class="hover-text-image-wrap">
+                        <img src="assets/img/48095752.png" alt="" />
+                        <p class="text">BBQ</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="m-3">
+                <div class="image-overlay-wrapper">
+                  <div class="card text-white">
+                    <img
+                      class="card-img"
+                      src="assets/img/Sandwiches.png"
+                      alt=""
+                    />
+
+                    <div class="card-img-overlay selling-things-card">
+                      <h4 class="card-icon">
+                        <img src="assets/img/48095752.png" alt="" />
+                      </h4>
+                      <div class="hover-text">
+                        <p class="text">Sandwiches</p>
+                      </div>
+                    </div>
+                    <div class="hover-image">
+                      <img
+                        class="card-img"
+                        src="assets/img/Sandwiches-Hover.png"
+                        alt=""
+                      />
+                      <div class="hover-text-image-wrap">
+                        <img src="assets/img/48095752.png" alt="" />
+                        <p class="text">Sandwiches</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="m-3">
+                <div class="image-overlay-wrapper">
+                  <div class="card text-white">
+                    <img class="card-img" src="assets/img/Burgers.png" alt="" />
+
+                    <div class="card-img-overlay selling-things-card">
+                      <h4 class="card-icon">
+                        <img src="assets/img/48095752.png" alt="" />
+                      </h4>
+                      <div class="hover-text">
+                        <p class="text">Burgers</p>
+                      </div>
+                    </div>
+                    <div class="hover-image">
+                      <img
+                        class="card-img"
+                        src="assets/img/Burgers-Hover.png"
+                        alt=""
+                      />
+                      <div class="hover-text-image-wrap">
+                        <img src="assets/img/48095752.png" alt="" />
+                        <p class="text">Burgers</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="m-3">
+                <div class="image-overlay-wrapper">
+                  <div class="card text-white">
+                    <img
+                      class="card-img"
+                      src="assets/img/Beverages.png"
+                      alt=""
+                    />
+
+                    <div class="card-img-overlay selling-things-card">
+                      <h4 class="card-icon">
+                        <img src="assets/img/48095752.png" alt="" />
+                      </h4>
+                      <div class="hover-text">
+                        <p class="text">Beverages</p>
+                      </div>
+                    </div>
+                    <div class="hover-image">
+                      <img
+                        class="card-img"
+                        src="assets/img/Beverages-Hover.png"
+                        alt=""
+                      />
+                      <div class="hover-text-image-wrap">
+                        <img src="assets/img/48095752.png" alt="" />
+                        <p class="text">Beverages</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-md-flex mt-5">
+              <div class="m-3">
+                <div class="image-overlay-wrapper">
+                  <div class="card text-white">
+                    <img
+                      class="card-img"
+                      src="assets/img/Meat-Poultry.png"
+                      alt=""
+                    />
+
+                    <div class="card-img-overlay selling-things-card">
+                      <h4 class="card-icon">
+                        <img src="assets/img/48095752.png" alt="" />
+                      </h4>
+                      <div class="hover-text">
+                        <p class="text">Meat & Poultry</p>
+                      </div>
+                    </div>
+                    <div class="hover-image">
+                      <img
+                        class="card-img"
+                        src="assets/img/Meat-Poultry-Hover.png"
+                        alt=""
+                      />
+                      <div class="hover-text-image-wrap">
+                        <img src="assets/img/48095752.png" alt="" />
+                        <p class="text">Meat & Poultry</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="m-3">
+                <div class="image-overlay-wrapper">
+                  <div class="card text-white">
+                    <img class="card-img" src="assets/img/BBQ.png" alt="" />
+
+                    <div class="card-img-overlay selling-things-card">
+                      <h4 class="card-icon">
+                        <img src="assets/img/48095752.png" alt="" />
+                      </h4>
+                      <div class="hover-text">
+                        <p class="text">BBQ</p>
+                      </div>
+                    </div>
+                    <div class="hover-image">
+                      <img
+                        class="card-img"
+                        src="assets/img/BBQ-Hover.png"
+                        alt=""
+                      />
+                      <div class="hover-text-image-wrap">
+                        <img src="assets/img/48095752.png" alt="" />
+                        <p class="text">BBQ</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="m-3">
+                <div class="image-overlay-wrapper">
+                  <div class="card text-white">
+                    <img
+                      class="card-img"
+                      src="assets/img/Sandwiches.png"
+                      alt=""
+                    />
+
+                    <div class="card-img-overlay selling-things-card">
+                      <h4 class="card-icon">
+                        <img src="assets/img/48095752.png" alt="" />
+                      </h4>
+                      <div class="hover-text">
+                        <p class="text">Sandwiches</p>
+                      </div>
+                    </div>
+                    <div class="hover-image">
+                      <img
+                        class="card-img"
+                        src="assets/img/Sandwiches-Hover.png"
+                        alt=""
+                      />
+                      <div class="hover-text-image-wrap">
+                        <img src="assets/img/48095752.png" alt="" />
+                        <p class="text">Sandwiches</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="m-3">
+                <div class="image-overlay-wrapper">
+                  <div class="card text-white">
+                    <img class="card-img" src="assets/img/Burgers.png" alt="" />
+
+                    <div class="card-img-overlay selling-things-card">
+                      <h4 class="card-icon">
+                        <img src="assets/img/48095752.png" alt="" />
+                      </h4>
+                      <div class="hover-text">
+                        <p class="text">Burgers</p>
+                      </div>
+                    </div>
+                    <div class="hover-image">
+                      <img
+                        class="card-img"
+                        src="assets/img/Burgers-Hover.png"
+                        alt=""
+                      />
+                      <div class="hover-text-image-wrap">
+                        <img src="assets/img/48095752.png" alt="" />
+                        <p class="text">Burgers</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="m-3">
+                <div class="image-overlay-wrapper">
+                  <div class="card text-white">
+                    <img
+                      class="card-img"
+                      src="assets/img/Beverages.png"
+                      alt=""
+                    />
+
+                    <div class="card-img-overlay selling-things-card">
+                      <h4 class="card-icon">
+                        <img src="assets/img/48095752.png" alt="" />
+                      </h4>
+                      <div class="hover-text">
+                        <p class="text">Beverages</p>
+                      </div>
+                    </div>
+                    <div class="hover-image">
+                      <img
+                        class="card-img"
+                        src="assets/img/Beverages-Hover.png"
+                        alt=""
+                      />
+                      <div class="hover-text-image-wrap">
+                        <img src="assets/img/48095752.png" alt="" />
+                        <p class="text">Beverages</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="testimonial-section mt-100 pt-100">
+      <div class="container">
+        <div class="row">
+          <div class="col pb-100">
+            <div class="testimonial-title-wrap">
+              <h2>VENDOR STORIES</h2>
+              <p>
+                Feedback from these happy customers helps us in reaching the
+                heights
+              </p>
+            </div>
+
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div class="testi-container mt-5">
+                  <p class="text">
+                    <img src="assets/img/quoat.svg" alt="" />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                  </p>
+                </div>
+                <div class="testimonial-author-name">
+                  <div class="image-box">
+                    <img src="assets/img/Photo.png" alt="">
+                  </div>
+                  <div class="name-box">
+                    <div class="author-name">Jane Cooper</div>
+                    <div class="author-position">CEO, ABC Corporation</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <script>
+              $(".owl-carousel").owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                  0: {
+                    items: 1,
+                  },
+                  600: {
+                    items: 1,
+                  },
+                  1000: {
+                    items: 1,
+                  },
+                },
+              });
+            </script>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="how-work-section pt-100">
+      <div class="container">
+        <h2 class="medium-heading text-dark text-center">Partners</h2>
+        <div class="row mt-40">
+          <div class="col">
+            <div class="logos-wrapper d-md-flex justify-content-between">
+              <img src="assets/img/1.jpeg" alt="" />
+              <img src="assets/img/2.jpeg" alt="" />
+              <img src="assets/img/3.jpeg" alt="" />
+              <img src="assets/img/4.jpeg" alt="" />
+              <img src="assets/img/5.jpeg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscrib-form-section pt-100 pb-100">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h2 class="medium-heading text-light">
+              Sign-up for News Updates and Alerts
+            </h2>
+            <p class="text text-light">
+              Newsletter and offers by entering your email.
+            </p>
+            <form class="d-md-flex">
+              <input
+                class="form-control bg-transparent border-0 text-light"
+                type="email"
+                placeholder="Enter email address"
+                aria-label="Email"
+              />
+              <button class="btn btn-primary bg-white text-pink" type="submit">
+                Subscribe Now
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="pt-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <img src="assets/img/logo.png" alt="" />
+            <p class="footer-text mt-4">
+              Lorem ipsum dolor amet, consectetur adipiscing elit. Eget nisl
+              nunc quam ac sed turpis volutpat.
+            </p>
+            <div class="d-md-flex gap-10 mt-3 download-app-btn">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <img
+                  class="mt-2 border-1"
+                  src="assets/img/appstore.png"
+                  alt=""
+                />
+              </a>
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <img class="mt-2" src="assets/img/playstore.png" alt="" />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-2 offset-md-1">
+            <h5 class="small-heading text-pink mt-2">Quick Links</h5>
+            <ul class="nav flex-column mt-4">
+              <li class="nav-item mb-3">
+                <a href="/about.html" class="nav-link p-0 text-gray"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item mb-3">
+                <a href="/services.html" class="nav-link p-0 text-gray"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item mb-3">
+                <a href="/careers.html" class="nav-link p-0 text-gray"
+                  >Careers</a
+                >
+              </li>
+              <li class="nav-item mb-3">
+                <a href="/contact-us.html" class="nav-link p-0 text-gray"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-2">
+            <h5 class="small-heading text-pink mt-2">Policy</h5>
+            <ul class="nav flex-column mt-4">
+              <li class="nav-item mb-3">
+                <a href="/terms-of-service.html" class="nav-link p-0 text-gray"
+                  >Terms of Service</a
+                >
+              </li>
+              <li class="nav-item mb-3">
+                <a href="/privacy-policy.html" class="nav-link p-0 text-gray"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li class="nav-item mb-3">
+                <a href="/terms-of-use.html" class="nav-link p-0 text-gray"
+                  >Terms of Use</a
+                >
+              </li>
+              <li class="nav-item mb-3">
+                <a href="/cookie-policy.html" class="nav-link p-0 text-gray"
+                  >Cookie Policy</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-2">
+            <h5 class="small-heading text-pink mt-2">Contact Us</h5>
+            <ul class="nav flex-column mt-4">
+              <li class="nav-item mb-3">
+                <a href="#" class="nav-link p-0 text-gray d-flex">
+                  <img src="/assets/img/email-icon.png" alt="" />
+                  <span class="ml-2">email@gmail.com</span>
+                </a>
+              </li>
+              <li class="nav-item mb-3">
+                <a href="#" class="nav-link p-0 text-gray d-flex">
+                  <img src="/assets/img/phone-icon.png" alt="" />
+                  <span class="ml-2">24 hours</span>
+                </a>
+              </li>
+              <li class="nav-item mb-3">
+                <a href="#" class="nav-link p-0 text-gray d-flex">
+                  <img src="/assets/img/location-icon.png" alt="" />
+                  <span class="ml-2">Amman, Jordan</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="d-md-flex justify-content-between pt-5">
+          <p class="footer-text">©Tazweedco 2024. All rights reserved.</p>
+          <div class="list-social-icons d-flex">
+            <a href="#" class="nav-link p-0 text-gray d-flex">
+              <img src="/assets/img/Instagram.png" alt="" />
+            </a>
+            <a href="#" class="nav-link p-0 text-gray d-flex">
+              <img src="/assets/img/facebook-square.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
