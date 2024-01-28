@@ -10,6 +10,9 @@
   --text-color: #050404;
   --background-color: #fff;
 }
+button.navbar-toggler {
+  background: #df297b;
+}
 .btn-primary {
   color: #fff;
   background-color: var(--accent-color);
@@ -583,6 +586,27 @@ font-size: 14px;
 line-height: 24px;
 font-feature-settings: 'liga' off;
 color: #18191F;
+}
+
+.navbar-toggler[aria-expanded="false"] .navbar-toggler-icon:before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-image: url(../img/humberger.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-image: url(../img/humberger-close.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 @media only screen and (max-width: 1024px) {
   .position-absolute {
